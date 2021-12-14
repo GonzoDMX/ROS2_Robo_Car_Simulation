@@ -80,6 +80,9 @@ class ObjectSearch(Node):
 			if msg.count > 0:
 				y = round(msg.y_position[0], 2)
 				x = round(msg.x_position[0], 2) * -0.5
+				
+				#if self.distance < 1:
+					
 				self.publish_move(y, x)
 				if y == 0:
 					print("I've arrived at the object")
@@ -114,7 +117,9 @@ class ObjectSearch(Node):
 
 	def laser_callback(self, msg):
 		self.distance = min(msg.ranges)
-
+		print(msg.ranges)
+		print(len(msg.ranges))
+		
 	def publish_move(self, vel_x, vel_z):
 		msg = Twist()
 		msg.linear.x = vel_x
