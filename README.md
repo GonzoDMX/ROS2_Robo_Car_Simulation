@@ -1,6 +1,11 @@
 # ROS2 Robo Car
 
 This is a university project built on ROS2.<br /><br />
+
+<p align="center">
+  <img style="width: 80%; height: 80%;" src="https://github.com/GonzoDMX/System_Nomads/blob/main/assets/slide_01.png">
+</p>
+
 **Features:**
 1. Custom Robo Car Model (Blender file and URDF)
 2. SLAM
