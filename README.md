@@ -1,16 +1,22 @@
 # ROS2 Robo Car
 
-This is a university project built on ROS2.<br /><br />
+Robotics simulation built on ROS2. This project demonstrates various concepts and functionalities available for robotics development when using the Open Robotics' ROS 2.0 robot operating system framework. The project was built from the ground up and includes the following features :
+1. 3D modeling and simulation of robot
+2. Sensor fusion using lidar, IMU and camera
+3. SLAM and real-time environment mapping
+4. Obstacle avoidance and object retrieval<br />
+
+These features were implemented using the following concepts :
 
 <p align="center">
-  <img style="width: 80%; height: 80%;" src="https://github.com/GonzoDMX/System_Nomads/blob/main/assets/slide_01.png">
+  <img style="width: 80%; height: 80%;" src="https://github.com/GonzoDMX/ROS2_Robo_Car_Simulation/blob/main/assets/slide_01.png">
 </p>
 
-**Features:**
-1. Custom Robo Car Model (Blender file and URDF)
-2. SLAM
-3. Environment Mapping
-4. Obstacle Avoidance
-5. OpenCV Object Detection and Tracking
-6. Routine for finding objects in an environment
-7. Lidar, IMU and Camera sensor simulation
+<p align="center">
+  <img style="width: 80%; height: 80%;" src="https://github.com/GonzoDMX/ROS2_Robo_Car_Simulation/blob/main/assets/slide_02.png">
+</p>
+
+<p align="center">
+  <img style="width: 80%; height: 80%;" src="https://github.com/GonzoDMX/ROS2_Robo_Car_Simulation/blob/main/assets/slide_03.png">
+</p>
+
